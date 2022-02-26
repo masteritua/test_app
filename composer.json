@@ -1,6 +1,12 @@
 {
     "name": "masteritua/test_app",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/masteritua/test_app.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Masteritua\\TestApp\\": "src/"
