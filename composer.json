@@ -1,13 +1,8 @@
 {
     "name": "masteritua/test_app",
     "description": "Teстовый пакет",
-    "type": "project",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/masteritua/test_app.git"
-        }
-    ],
+    "type": "library",
+    "repositories": [],
     "autoload": {
         "psr-4": {
             "Masteritua\\TestApp\\": "src/"
@@ -20,8 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "afrazahmad/clear-cached-data": "^1.0"
+        "php": ">=7.0.0"
     },
     "license": "MIT"
 }
